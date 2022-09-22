@@ -1,0 +1,12 @@
+node-has-to-string-tag-x (1.4.1+dfsg-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 15:07:32 +0100
+
+node-has-to-string-tag-x (1.4.1+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #877306)
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 30 Sep 2017 17:31:10 +0530

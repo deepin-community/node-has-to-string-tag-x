@@ -1,0 +1,28 @@
+Source: node-has-to-string-tag-x
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 4.1.0
+Homepage: https://github.com/Xotic750/has-to-string-tag-x
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-has-to-string-tag-x.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-has-to-string-tag-x.git
+
+Package: node-has-to-string-tag-x
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-has-symbol-support-x (>= 1.4.1)
+Description: Tests if ES6 @@toStringTag is supported
+ Indicates if `Symbol.toStringTag`exists and is the correct type. `true`, if it
+ exists and is the correct type, otherwise `false`.
+ .
+ This was introduced in ECMA-262, 6th edition of ECMAScript 2015 Language
+ specification (also known as ES6 or ES2015).
+ .
+ Node.js is an event-based server-side JavaScript engine.

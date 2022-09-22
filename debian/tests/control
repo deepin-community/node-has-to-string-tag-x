@@ -1,0 +1,2 @@
+Tests: require
+Depends: node-has-to-string-tag-x
